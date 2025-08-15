@@ -28,16 +28,16 @@ def read_float():
 #     for i in range(len(byte_list)):
 #         bus.write_byte(0x09, byte_list[i])
      
-while True:
+# while True:
 
-    send_two_floats(3.14, 0.5)
+    # send_two_floats(3.14, 0.5)
 #     # bus.write_byte(address, byte_list[i])
-    time.sleep(0.5)
+    # time.sleep(0.5)
 #     #print("Sent: 3.14, 2.718")
-    value = read_float()
-    print(value)
+    # value = read_float()
+    # print(value)
     # # send_one_floats(-0.5)
-    time.sleep(0.5)
+    # time.sleep(0.5)
 
 
 # sudo python3 /home/ubuntu/Code/interface_I2C.py
