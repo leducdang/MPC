@@ -4,7 +4,7 @@ import pickle
 import struct
 import time
 import random  # chỉ dùng để mô phỏng vận tốc
-from interface_I2C import send_two_floats, read_float
+from i2cInterface import send_two_floats, read_float
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect(('192.168.0.117', 8485))
@@ -38,5 +38,6 @@ while True:
         # send_one_floats(theta)
     
     
+
 
 # sudo python3 /home/ubuntu/Code/TCP_testdata.py
